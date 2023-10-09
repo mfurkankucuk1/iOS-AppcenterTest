@@ -29,4 +29,4 @@ jobs:
           
       - name: Request Appcenter For Config Clone
         run: |
-          curl -X POST "https://api.appcenter.ms/v0.1/apps/mfkcompany/appcenterTest/branches/test/config" -H  "accept: application/json" -H  "X-API-Token: 07a3c7d012ec29f668c371485d5a6118dc76ef3b" -H  "Content-Type: application/json" --data '{"cloneFromBranch": "main"}'
+          curl -X POST "https://api.appcenter.ms/v0.1/apps/mfkcompany/iOSTestApp/branches/test/config" -H  "accept: application/json" -H  "X-API-Token: 07a3c7d012ec29f668c371485d5a6118dc76ef3b" -H  "Content-Type: application/json" --data '{"cloneFromBranch": "main"}'
